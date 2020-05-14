@@ -1,0 +1,22 @@
+{
+  "name": "hobsons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahbaz-qaiser-10p/hobsons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahbaz-qaiser-10p/hobsons/issues"
+  },
+  "homepage": "https://github.com/shahbaz-qaiser-10p/hobsons#readme",
+  "devDependencies": {
+    "cypress": "^4.5.0"
+  }
+}
