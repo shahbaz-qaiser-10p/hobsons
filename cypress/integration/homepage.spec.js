@@ -75,12 +75,15 @@ describe('Menu Task', function () {
     })
 })
 
-/* Task#3
+/* Task#4
 
 Navigate to Resources > Events. 
 Assert all events on the page that occur in the future. 
 Note you do NOT need to apply the filters, just assert on the default list that is displayed. 
 Also note that you need only assert on events which have specified a day, month and year */
+
+/* #Clarification For Task#4, did not see the given date format in the Event Page. 
+Once we set the date format for the event and we can compare the case for future. */
 
 describe('Assert all events on the page that occur in the future.', function () {
     it('Visit Event Page', function () {
