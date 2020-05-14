@@ -85,8 +85,6 @@ Also note that you need only assert on events which have specified a day, month 
 describe('Assert all events on the page that occur in the future.', function () {
     it('Visit Event Page', function () {
         cy.contains('Events').trigger('mousemove').click()
-        const todaysDate = Cypress.moment().format('MMM DD, YYYY')
-        cy.get(':nth-child(2) > .txt > p > small').text()
-
+        cy.get(':nth-child(2) > .txt > p > small').contains('Jan. 22-24, 2020')//01, 12 2020
     })
 })
